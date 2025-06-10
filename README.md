@@ -4,3 +4,9 @@
 - `zhang2023nanoletter_paracrystalline-nucleation-in-disordered-diamonds.pdf`, Zhang, ZhongTing, et al. "Temperature-dependent paracrystalline nucleation in atomically disordered diamonds." Nano Letters 24.1 (2023): 312-318.  ||对温度要求比较矫情 (温度范围比较窄) 的paracrystalline nucleation in disordered diamond. ||肯定了这一亚稳态相的相对稳定存在，并说只有在3200-3400K左右的狭窄范围内（Fig. 4c吉布斯自由能），才可能容易制备到paracrystalline diamond; 低于该温度，则不易形成；而高于该温度，会更容易形成nano-polycystalline diamond（如3600 K） ||MD制备样品的温度协议：以1 g/cc的DGN为前驱体，快速挤压到3.3 g/cc, 然后3000 (Fig. S1)， 3200 (Fig. S1)，3800 (Fig. S1) K弛豫2 ns得到样品.
 - `tang2021nature_paracrystalline-diamond_part1.pdf`, Tang, Hu, et al. "Synthesis of paracrystalline diamond." Nature 599.7886 (2021): 605-610. TO BE DONE ...
 - <span style="color:red"> this is just a test for html rendering</span>
+
+
+
+## II. structure-kappa relationship
+
+- `zhang2025scienceAdvances_aC-anomalous-kappa.pdf`, ZhongTing Zhang et al. "Unveiling the microscopic origin of anomalous thermal conductivity in amorphous carbon." .Sci. Adv.11 (2025). || 以a-DG为例，高温高压，通过微修改压强，得到了密度范围为2.36-3.18 g/cc的DMG (disordered multilayer graphene network) to a-DG相（第一阶段相变）再 to ND (nanodiamond=paracrystalline diamond or nanopolycrystalline diamond) (第二阶段相变). 第一阶段是相对有序的DMG基体内部出现一定程度的amorphization（sp3），导致形成的a-DG的化学无序度的增大，但sp2/sp3=1附近，化学无序度达到最大。这一阶段对应的热导率变化是下降的趋势； 第二阶段相变，是持续增大的sp3,逐渐形核和长大，形成微小的diamond晶粒。这一阶段对应的热导率变化是上升趋势。|| 整体看来，a-DG热导率随密度先变小再增大。这一变化趋势跟报道的都是单调增加的结论不符合，所以叫anomalous。 ||原因分析：热导率先减小后增大形成一个极小值，跟结构相变直接相关。通过热导率物理量分析，发现diffusivity ($v^2\tau$)是结构相变带来的声子自由程和声子(主要集中在中频率7-30 THz范围)寿命先变小后变大所致。
