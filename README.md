@@ -10,3 +10,13 @@
 ## II. structure-kappa relationship
 
 - `zhang2025scienceAdvances_aC-anomalous-kappa.pdf`, ZhongTing Zhang et al. "Unveiling the microscopic origin of anomalous thermal conductivity in amorphous carbon." .Sci. Adv.11 (2025). || 以a-DG为例，高温高压，通过微修改压强，得到了密度范围为2.36-3.18 g/cc的DMG (disordered multilayer graphene network) to a-DG相（第一阶段相变）再 to ND (nanodiamond=paracrystalline diamond or nanopolycrystalline diamond) (第二阶段相变). 第一阶段是相对有序的DMG基体内部出现一定程度的amorphization（sp3），导致形成的a-DG的化学无序度的增大，但sp2/sp3=1附近，化学无序度达到最大。这一阶段对应的热导率变化是下降的趋势； 第二阶段相变，是持续增大的sp3,逐渐形核和长大，形成微小的diamond晶粒。这一阶段对应的热导率变化是上升趋势。|| 整体看来，a-DG热导率随密度先变小再增大。这一变化趋势跟报道的都是单调增加的结论不符合，所以叫anomalous。 ||原因分析：热导率先减小后增大形成一个极小值，跟结构相变直接相关。通过热导率物理量分析，发现diffusivity ($v^2\tau$)和热导率变化趋势同步，表明是结构相变带来的声子自由程和声子(主要集中在中频率7-30 THz范围)寿命先变小后变大所致 （因为体积热熔和群速度都随密度单调增加）。
+
+
+
+## II. Misc
+
+- `Cao2025jap_16-metal-kappa.pdf`, Cao, Shuo, et al. "Lattice thermal conductivity of 16 elemental metals from molecular dynamics simulations with a unified neuroevolution potential." arXiv preprint arXiv:2505.13179 (2025). || 使用UNEP16-v1势，EAM势，HNEMD计算了16种金属的晶格热导率，并跟BTE方法计算的结果做了对照。发现UNEP16-v1的晶格热导率比EAM普遍大一点，从而更接近BTE只考虑声子-声子散射计算的结果。
+
+
+
+
