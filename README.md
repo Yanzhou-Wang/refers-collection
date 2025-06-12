@@ -9,8 +9,14 @@
 
 ## II. structure-kappa relationship
 
-- `zhang2025scienceAdvances_aC-anomalous-kappa.pdf`, ZhongTing Zhang et al. "Unveiling the microscopic origin of anomalous thermal conductivity in amorphous carbon." .Sci. Adv.11 (2025). || 以a-DG为例，高温高压，通过微修改压强，得到了密度范围为2.36-3.18 g/cc的DMG (disordered multilayer graphene network) to a-DG相（第一阶段相变）再 to ND (nanodiamond=paracrystalline diamond or nanopolycrystalline diamond) (第二阶段相变). 第一阶段是相对有序的DMG基体内部出现一定程度的amorphization（sp3），导致形成的a-DG的化学无序度的增大，但sp2/sp3=1附近，化学无序度达到最大。这一阶段对应的热导率变化是下降的趋势； 第二阶段相变，是持续增大的sp3,逐渐形核和长大，形成微小的diamond晶粒。这一阶段对应的热导率变化是上升趋势。|| 整体看来，a-DG热导率随密度先变小再增大。这一变化趋势跟报道的都是单调增加的结论不符合，所以叫anomalous。 ||原因分析：热导率先减小后增大形成一个极小值，跟结构相变直接相关。通过热导率物理量分析，发现diffusivity ($v^2\tau$)和热导率变化趋势同步，表明是结构相变带来的声子自由程和声子(主要集中在中频率7-30 THz范围)寿命先变小后变大所致 （因为体积热熔和群速度都随密度单调增加）。
+- `zhang2025scienceAdvances_aC-anomalous-kappa.pdf`, ZhongTing Zhang et al. "Unveiling the microscopic origin of anomalous thermal conductivity in amorphous carbon." Sci. Adv.11 (2025). || 以a-DG为例，高温高压，通过微修改压强，得到了密度范围为2.36-3.18 g/cc的DMG (disordered multilayer graphene network) to a-DG相（第一阶段相变）再 to ND (nanodiamond=paracrystalline diamond or nanopolycrystalline diamond) (第二阶段相变). 第一阶段是相对有序的DMG基体内部出现一定程度的amorphization（sp3），导致形成的a-DG的化学无序度的增大，但sp2/sp3=1附近，化学无序度达到最大。这一阶段对应的热导率变化是下降的趋势； 第二阶段相变，是持续增大的sp3,逐渐形核和长大，形成微小的diamond晶粒。这一阶段对应的热导率变化是上升趋势。|| 整体看来，a-DG热导率随密度先变小再增大。这一变化趋势跟报道的都是单调增加的结论不符合，所以叫anomalous。 ||原因分析：热导率先减小后增大形成一个极小值，跟结构相变直接相关。通过热导率物理量分析，发现diffusivity ($v^2\tau$)和热导率变化趋势同步，表明是结构相变带来的声子自由程和声子(主要集中在中频率7-30 THz范围)寿命先变小后变大所致 （因为体积热熔和群速度都随密度单调增加）。
 
+
+
+
+## II. MLIP-related
+
+- `Baghishov2025_appplication-specific-MLIP.pdf `, Ilgar Baghishov et al, "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost", arXiv:2506.05646 || 如材料发现，由于需要高通量计算，要考虑MD模拟耗费的总时间成本，所以当机器学习势函数用于某一具体应用时，就会对MLIP的模型复杂性做某种限制。即是说，考虑快速的MD计算，我们要降低制约MLIP运行速度的模型复杂度（神经网络层数，描述符个数，描述符完备程度等）。 简言之，我们在做某一具体应用时，就要考虑计算成本和计算精度的之间的平衡。|| 一个MLIP模型的训练，要经历两个阶段：数据集制备和模型拟合。第一阶段的数据集的DFT制备，涉及MLIP模型精度的因素主要有两个：DFT计算精度（k-point, cuttoff energy）和 dataset size. 第二阶段的模型拟合，涉及MLIP模型精度的因素也主要是两个：模型复杂度选择和训练时能量/力的权重分配。也就是说，这四个因素都会明显影响训练的MLIP模型的精度和计算成本。|| 具体来说，
 
 
 ## II. Misc
