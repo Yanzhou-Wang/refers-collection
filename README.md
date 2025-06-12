@@ -3,8 +3,7 @@
 - `zhu2024_aC-discontinous-phase-diagram.pdf`, Zhu, YinBo, et al. "Discontinuous phase diagram of amorphous carbons." National Science Review 11.4 (2024): nwae051. ||首次归纳出了无序碳结构存在的6种相，并以sp3/sp2-density二维坐标面的形式首次绘制了它们的非连续相图。|| 以DGN为前驱体，采用"快速升温(4000K)-恒温弛豫-升压(20, 40GPa)-恒压弛豫"的温度协议，得到Fig. 1中6种 (包括前驱体DGN）代表性结构。Fig. 1(b-c)是P=20 GPa所得；Fig. 1d-f是高压P=40GPa所得。|| Fig. 3以sp3/sp2-density二维坐标面，展示了这6种结构的非连续相图 ||Fig. 2给出了这些相的xrd和structure factor结构表征。
 - `zhang2023nanoletter_paracrystalline-nucleation-in-disordered-diamonds.pdf`, Zhang, ZhongTing, et al. "Temperature-dependent paracrystalline nucleation in atomically disordered diamonds." Nano Letters 24.1 (2023): 312-318.  ||对温度要求比较矫情 (温度范围比较窄) 的paracrystalline nucleation in disordered diamond. ||肯定了这一亚稳态相的相对稳定存在，并说只有在3200-3400K左右的狭窄范围内（Fig. 4c吉布斯自由能），才可能容易制备到paracrystalline diamond; 低于该温度，则不易形成；而高于该温度，会更容易形成nano-polycystalline diamond（如3600 K） ||MD制备样品的温度协议：以1 g/cc的DGN为前驱体，快速挤压到3.3 g/cc, 然后3000 (Fig. S1)， 3200 (Fig. S1)，3800 (Fig. S1) K弛豫2 ns得到样品.
 - `tang2021nature_paracrystalline-diamond_part1.pdf`, Tang, Hu, et al. "Synthesis of paracrystalline diamond." Nature 599.7886 (2021): 605-610. TO BE DONE ...
-- <span style="color:red"> this is just a test for html rendering</span>
-
+- `wang2021crystal_porous-DGN.pdf`,   Wang, YongChao, YinBo Zhu, and HengAn Wu. "Porous characteristics of three-dimensional disordered graphene networks." Crystals 11.2 (2021): 127. TO BE DONE
 
 
 ## II. structure-kappa relationship
