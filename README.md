@@ -13,9 +13,20 @@
 
 
 
+
+## II. Thermal properties
+
+- ` guo2025jcp_tutorial-ACE-kappa-solid.pdf`, Guo, Liben, et al. "Lattice dynamics modeling of thermal transport in solids using machine-learned atomic cluster expansion potentials: A tutorial." Journal of Applied Physics 137.8 (2025). || 该教程以ACE机器学习势函数为例，从训练集构造（手动构造+主动学习），势函数训练（能量/力权重选择，超参数选择）精度（和应用性质精度）和MLIP-MD计算成本的trade-off考量，到热性质计算等，做了一个基本流程介绍。|| 关于热性质及热导率计算的演示，采用的方法是基于准简谐近似的晶格动力学。|| 对于有清晰定义的波矢的晶体，采用准简谐近似求解玻尔兹曼热输运方程的方法来计算，即使用phono3py软件分别计算了声子谱，DOS，声子linewidth和热导率。||对于没有清晰定义波矢的非晶，采用准简谐近似格林函数（QHGK）方法。使用kALDo软件完成类似热性质的计算。
+
+
+
 ## II. MLIP-related
 
 - `Baghishov2025_appplication-specific-MLIP.pdf `, Ilgar Baghishov et al, "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost", arXiv:2506.05646 || 如材料发现，由于需要高通量计算，要考虑MD模拟耗费的总时间成本，所以当机器学习势函数用于某一具体应用时，就会对MLIP的模型复杂性做某种限制。即是说，考虑快速的MD计算，我们要降低制约MLIP运行速度的模型复杂度（神经网络层数，描述符个数，描述符完备程度等）。 简言之，我们在做某一具体应用时，就要考虑计算成本和计算精度的之间的平衡。|| 一个MLIP模型的训练，要经历两个阶段：数据集制备和模型拟合。第一阶段的数据集的DFT制备，涉及MLIP模型精度的因素主要有两个：DFT计算精度（k-point, cuttoff energy）和 dataset size. 第二阶段的模型拟合，涉及MLIP模型精度的因素也主要是两个：模型复杂度选择和训练时能量/力的权重分配。也就是说，这四个因素都会明显影响训练的MLIP模型的精度和计算成本。|| 具体来说，文章使用SNAP势函数模型，分别考察了dataset size (Leveragge score，主动学习远点采样做data efficiency), DFT precision (不同precision等级但构型都相同的dataset)， energy/force weight factor during training, expansion order (2$J_{max}$ 衡量模型复杂度)如何同时影响势函数精度和DFT计算成本（注意这里是DFT成本，不是MD成本，因为MLIP一旦训练好了，精度高或低，都基本不会影响MD计算成本）.
+
+
+
+
 
 
 ## II. Misc
