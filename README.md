@@ -34,5 +34,10 @@
 - `Cao2025jap_16-metal-kappa.pdf`, Cao, Shuo, et al. "Lattice thermal conductivity of 16 elemental metals from molecular dynamics simulations with a unified neuroevolution potential." arXiv preprint arXiv:2505.13179 (2025). || 使用UNEP16-v1势，EAM势，HNEMD计算了16种金属的晶格热导率，并跟BTE方法计算的结果做了对照。发现UNEP16-v1的晶格热导率比EAM普遍大一点，从而更接近BTE只考虑声子-声子散射计算的结果。
 
 
+## TO DO (Bohan-related)
+- Ibragimova, Rina, et al. "Unifying the description of hydrocarbons and hydrogenated carbon materials with a chemically reactive machine learning interatomic potential." Chemistry of Materials 37.3 (2025): 1094-1110.
+- Chen, Zhuo, et al. "Softening of Vibrational Modes and Anharmonicity Induced Thermal Conductivity Reduction in a‐Si: H at High Temperatures." Advanced Electronic Materials (2025): 2500104.
+
+
 
 
