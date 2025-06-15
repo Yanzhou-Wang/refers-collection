@@ -23,6 +23,7 @@
 ## II. MLIP-related
 
 - `Baghishov2025_appplication-specific-MLIP.pdf `, Ilgar Baghishov et al, "Application-specific Machine-Learned Interatomic Potentials: Exploring the Trade-off Between Precision and Computational Cost", arXiv:2506.05646 || 如材料发现，由于需要高通量计算，要考虑MD模拟耗费的总时间成本，所以当机器学习势函数用于某一具体应用时，就会对MLIP的模型复杂性做某种限制。即是说，考虑快速的MD计算，我们要降低制约MLIP运行速度的模型复杂度（神经网络层数，描述符个数，描述符完备程度等）。 简言之，我们在做某一具体应用时，就要考虑计算成本和计算精度的之间的平衡。|| 一个MLIP模型的训练，要经历两个阶段：数据集制备和模型拟合。第一阶段的数据集的DFT制备，涉及MLIP模型精度的因素主要有两个：DFT计算精度（k-point, cuttoff energy）和 dataset size. 第二阶段的模型拟合，涉及MLIP模型精度的因素也主要是两个：模型复杂度选择和训练时能量/力的权重分配。也就是说，这四个因素都会明显影响训练的MLIP模型的精度和计算成本。|| 具体来说，文章使用SNAP势函数模型，分别考察了dataset size (Leveragge score，主动学习远点采样做data efficiency), DFT precision (不同precision等级但构型都相同的dataset)， energy/force weight factor during training, expansion order (2$J_{max}$ 衡量模型复杂度)如何同时影响势函数精度和DFT计算成本（注意这里是DFT成本，不是MD成本，因为MLIP一旦训练好了，精度高或低，都基本不会影响MD计算成本）.
+- Ahhrenniius equation, experimental termperature maps to MD simulation time ????
 
 
 
