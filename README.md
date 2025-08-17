@@ -46,5 +46,18 @@
 - `moon2025npj_aC-crystal-like-kappa.pdf`，Moon, Jaeyun, and Zhiting Tian. "Crystal-like thermal transport in amorphous carbon." npj Computational Materials 11.1 (2025): 1-8.
 - collabrated papers with Zheyong
 
-
-
+```
+baghishov2025_appplication-specific-MLIP.pdf
+cao2025jap_16-metal-kappa.pdf
+chen2025_aSi-H-kappa.pdf
+guo2025jcp_tutorial-ACE-kappa-solid.pdf
+liu2025CommuPhys_a-C_temperature-density-dependent-phase-diagram_revised-version.pdf
+moon2025npj_aC-crystal-like-kappa.pdf
+rina2025cm_CH.pdf
+tang2021nature_paracrystalline-diamond_part1.pdf
+tang2021nature_paracrystalline-diamond_part2.pdf
+wang2021crystal_porous-DGN.pdf
+zhang2023nanoletter_paracrystalline-nucleation-in-disordered-diamonds.pdf
+zhang2025scienceAdvances_aC-anomalous-kappa.pdf
+zhu2024_aC-discontinous-phase-diagram.pdf
+```
