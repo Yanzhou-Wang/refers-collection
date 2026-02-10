@@ -6,6 +6,7 @@ chen2025_aSi-H-kappa.pdf
 moon2025npj_aC-crystal-like-kappa.pdf
 rina2025cm_CH.pdf
 wang2021crystal_porous-DGN.pdf
+https://iopscience.iop.org/article/10.1088/1361-648X/ad9657/meta    #机器学习势的2025年jpcm概述
 ```
 Ahhrenniius equation, experimental termperature maps to MD simulation time ??????????
 
