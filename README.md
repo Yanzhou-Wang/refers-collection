@@ -2,6 +2,10 @@
 
 TO BE SORTED OUT:
 ```
+wang2023prb_aSi-kappa.pdf
+wang2025prb_aC-kappa.pdf    # my papers to be sorted out
+
+
 chen2025_aSi-H-kappa.pdf
 moon2025npj_aC-crystal-like-kappa.pdf
 rina2025cm_CH.pdf
