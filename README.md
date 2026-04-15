@@ -16,7 +16,9 @@ Ahhrenniius equation, experimental termperature maps to MD simulation time ?????
 
 ## II. Film deposition
 
-- `liuyutao2025npj_carbon-film-desposition.pdf`, Liu, Yutao, et al, xxxxxxxxxxxxx  | Guizhou University | XXXXXXXXXXXXXXXXXXXX
+- `liuyutao2025npj_carbon-film-desposition.pdf`, Liu Yutao, et al, xxxxxxxxxxxxx  | Guizhou University | XXXXXXXXXXXXXXXXXXXX
+
+
 
 ## II. Structural forms of disordered carbon
 - `zhu2024_aC-discontinous-phase-diagram.pdf`, Zhu, YinBo, et al. "Discontinuous phase diagram of amorphous carbons." National Science Review 11.4 (2024): nwae051. |University of science and technology of China|首次归纳出了无序碳结构存在的6种相，并以sp3/sp2-density二维坐标面的形式首次绘制了它们的非连续相图。|| 以DGN为前驱体，采用"快速升温(4000K)-恒温弛豫-升压(20, 40GPa)-恒压弛豫"的温度协议，得到Fig. 1中6种 (包括前驱体DGN）代表性结构。Fig. 1(b-c)是P=20 GPa所得；Fig. 1d-f是高压P=40GPa所得。|| Fig. 3以sp3/sp2-density二维坐标面，展示了这6种结构的非连续相图 ||Fig. 2给出了这些相的xrd和structure factor结构表征。
