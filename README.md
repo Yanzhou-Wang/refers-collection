@@ -1,7 +1,10 @@
 # I. Paper collection
 
-TO BE SORTED OUT:
+- `baoyu2026npj_hydrogen-bubble.pdf`,  Bao, Yu, et al. "Atomistic understanding of hydrogen bubble-induced embrittlement in tungsten enabled by machine learning molecular dynamics." npj Computational Materials (2026).          
+
+
 ```
+
 wang2023prb_aSi-kappa.pdf
 wang2025prb_aC-kappa.pdf    # my papers to be sorted out
 
