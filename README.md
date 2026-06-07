@@ -1,6 +1,6 @@
 # I. Paper collection
 
-- `baoyu2026npj_hydrogen-bubble.pdf`,  Bao, Yu, et al. "Atomistic understanding of hydrogen bubble-induced embrittlement in tungsten enabled by machine learning molecular dynamics." npj Computational Materials (2026).          
+- `baoyu2026npj_hydrogen-bubble.pdf`,  Bao, Yu, et al. "Atomistic understanding of hydrogen bubble-induced embrittlement in tungsten enabled by machine learning molecular dynamics." npj Computational Materials (2026). |University of Science and Technology Beijing|          
 
 
 ```
